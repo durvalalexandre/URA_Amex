@@ -1,0 +1,162 @@
+
+<!--
+Automatically created by Apache Jakarta Tomcat JspC.
+Place this fragment in the web.xml before all icon, display-name,
+description, distributable, and context-param elements.
+-->
+
+    <servlet>
+        <servlet-name>org.apache.jsp.src.EnvioChamada_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.src.EnvioChamada_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.src.EnvioDosEventos_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.src.EnvioDosEventos_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.include.Capture_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.include.Capture_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.include.consultaLogin_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.include.consultaLogin_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.include.dbInputForm_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.include.dbInputForm_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.include.dbrequest_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.include.dbrequest_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.include.doArmazenaProtocolo_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.include.doArmazenaProtocolo_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.include.doConsultaBin_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.include.doConsultaBin_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.include.doConsultaBraspag_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.include.doConsultaBraspag_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.include.doConsultaCase_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.include.doConsultaCase_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.include.doConsultaProtocolo_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.include.doConsultaProtocolo_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.include.doRegistraCartaoPagamento_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.include.doRegistraCartaoPagamento_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.include.getWebRequestData_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.include.getWebRequestData_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.include.getWebServiceData_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.include.getWebServiceData_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.include.transformaHexEmDec_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.include.transformaHexEmDec_jsp</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.src.EnvioChamada_jsp</servlet-name>
+        <url-pattern>/src/EnvioChamada.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.src.EnvioDosEventos_jsp</servlet-name>
+        <url-pattern>/src/EnvioDosEventos.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.include.Capture_jsp</servlet-name>
+        <url-pattern>/include/Capture.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.include.consultaLogin_jsp</servlet-name>
+        <url-pattern>/include/consultaLogin.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.include.dbInputForm_jsp</servlet-name>
+        <url-pattern>/include/dbInputForm.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.include.dbrequest_jsp</servlet-name>
+        <url-pattern>/include/dbrequest.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.include.doArmazenaProtocolo_jsp</servlet-name>
+        <url-pattern>/include/doArmazenaProtocolo.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.include.doConsultaBin_jsp</servlet-name>
+        <url-pattern>/include/doConsultaBin.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.include.doConsultaBraspag_jsp</servlet-name>
+        <url-pattern>/include/doConsultaBraspag.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.include.doConsultaCase_jsp</servlet-name>
+        <url-pattern>/include/doConsultaCase.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.include.doConsultaProtocolo_jsp</servlet-name>
+        <url-pattern>/include/doConsultaProtocolo.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.include.doRegistraCartaoPagamento_jsp</servlet-name>
+        <url-pattern>/include/doRegistraCartaoPagamento.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.include.getWebRequestData_jsp</servlet-name>
+        <url-pattern>/include/getWebRequestData.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.include.getWebServiceData_jsp</servlet-name>
+        <url-pattern>/include/getWebServiceData.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.include.transformaHexEmDec_jsp</servlet-name>
+        <url-pattern>/include/transformaHexEmDec.jsp</url-pattern>
+    </servlet-mapping>
+
+<!--
+All session-config, mime-mapping, welcome-file-list, error-page, taglib,
+resource-ref, security-constraint, login-config, security-role,
+env-entry, and ejb-ref elements should follow this fragment.
+-->

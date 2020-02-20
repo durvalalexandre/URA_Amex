@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scxml version="1.0" xmlns="http://www.w3.org/2005/07/scxml"
+	xmlns:queue="http://www.genesyslab.com/modules/queue" xmlns:dialog="http://www.genesyslab.com/modules/dialog"
+	xmlns:session="http://www.genesyslab.com/modules/session" xmlns:ixn="http://www.genesyslab.com/modules/interaction"
+	xmlns:xi="http://www.w3.org/2001/XInclude" initial='_composer_entry' profile="ecmascript">
+
+	<!-- This SCXML Subroutine uses system.LastSubmitRequestId variable to find the priority of the request
+	Custom hand written apps should set the system.LastSubmitRequestId variable to get expected results -->
+	
+	<state id="_composer_entry">
+
+		<initial>
+			<transition target="$$_MY_PREFIX_$$._composer_globalstate" />
+		</initial>
+
+		<state id="_composer_globalstate">
+			<initial>
+				<transition target="$$_MY_PREFIX_$$.PriorityQuery" />
+			</initial>
+		</state>
+
+		<state id="PriorityQuery">
+			<onentry>
+				<queue:query requestid="system.LastSubmitRequestId" interactionid="system.InteractionID" />
+			</onentry>
+			<transition event="queue.query.done" target="$$_MY_PREFIX_$$.GetPriority.Complete">
+				<log expr="'*************************************'+_event.toSource()" />
+			</transition>
+			<final id="GetPriority.Complete">
+				<onentry>
+					<log expr="_sessionid + ': Reached final in GetPriority SubRoutine Execution'" />
+				</onentry>
+				<donedata>
+					<param name="ReturnValue" expr="_event.data.priority"/>
+				</donedata>
+			</final>
+		</state>
+	</state>
+</scxml>

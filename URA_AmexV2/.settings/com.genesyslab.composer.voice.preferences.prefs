@@ -1,0 +1,10 @@
+ComposerProject.WAR.DisplayName=Composer Generated Application
+ComposerProject.codegen.mode=RELEASE
+ComposerProject.icm.enabled=false
+ComposerProject.initialize.GVPSessionID=true
+ComposerProject.locale.default=pt_BR
+ComposerProject.locales=pt_BR
+ComposerProject.locales.custom=
+ComposerProject.routing.logLevel.default=Error
+ComposerProject.voice.logLevel.default=Error
+eclipse.preferences.version=1
